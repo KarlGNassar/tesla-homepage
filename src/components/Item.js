@@ -18,7 +18,7 @@ const Item = ({ title, desc, backgroundImg, leftBtnTxt, rightBtnTxt, twoButtons,
                 </div>
 
                 <div className="item__lowerThird">
-                    <div className="item__buttons">
+                    <div className={`item__buttons ${twoButtons === 'false' ? 'item__oneButton' : ''}`}>
                         <Button imp="primary" text={leftBtnTxt}/>
                         {twoButtons && (
                             <Button imp="secondary" text={rightBtnTxt} />

@@ -6,6 +6,7 @@
   background-size: cover;
   display: flex;
   justify-content: center;
+  scroll-snap-align: start;
 }
 
 .item__container {
@@ -44,5 +45,10 @@
   color: white;
   width: 100%;
   margin-top: 3%;
+  display: flex;
   justify-content: center;
+}
+
+.item__oneButton {
+  margin-left: 35%;
 }
