@@ -10,6 +10,10 @@
   opacity: 0.85;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .button > a {
   text-decoration: none;
   color: white;
