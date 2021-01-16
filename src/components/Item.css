@@ -48,8 +48,26 @@
   margin-top: 3%;
   display: flex;
   justify-content: center;
+  animation: jumpyIcon infinite 1s linear;
 }
 
 .item__oneButton {
   margin-left: 35%;
+}
+
+@media (max-width: 600px) {
+  .item__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@keyframes jumpyIcon {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }

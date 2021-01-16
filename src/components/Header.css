@@ -1,12 +1,14 @@
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   background-color: transparent;
   background: none;
   position: fixed;
   width: 100vw;
   top: 0;
   margin: 15px;
-  margin-top: 15px;
+  margin-top: 5px;
   z-index: 100;
 }
 
@@ -15,6 +17,11 @@
   width: 100px;
   margin-top: 7px;
   cursor: pointer;
+}
+
+.header__logo > img {
+  height: 15px;
+  width: 100px;
 }
 
 .header__center {
@@ -40,4 +47,15 @@
 .header__right > p {
   margin: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+  .header__center > p,
+  .header__right > p {
+    visibility: hidden;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
 }
