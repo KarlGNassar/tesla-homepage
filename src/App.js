@@ -31,35 +31,35 @@ function App() {
           title="Model S"
           desc="Starting at $69,420"
           backgroundImg={ModelS}
-          leftBtnTxt="ORDER NOW"
-          rightBtnTxt="CUSTOM ORDER"
+          leftBtnTxt="CUSTOM ORDER"
+          rightBtnTxt="EXISTING INVENTORY"
           twoButtons="true"
         />
 
         <Item 
           title="Model 3"
-          desc="Money-back guarantee"
+          desc="Order Online for Touchless Delivery"
           backgroundImg={Model3}
           leftBtnTxt="CUSTOM ORDER"
-          rightBtnTxt="LEARN MORE"
+          rightBtnTxt="EXISTING INVENTORY"
           twoButtons="true"
         />
 
         <Item 
           title="Model X"
-          desc="Money-back guarantee"
+          desc="Order Online for Touchless Delivery"
           backgroundImg={ModelX}
           leftBtnTxt="CUSTOM ORDER"
-          rightBtnTxt="LEARN MORE"
+          rightBtnTxt="EXISTING INVENTORY"
           twoButtons="true"
         />
 
         <Item 
           title="Model Y"
-          desc="Money-back guarantee"
+          desc="Order Online for Touchless Delivery"
           backgroundImg={ModelY}
           leftBtnTxt="CUSTOM ORDER"
-          rightBtnTxt="LEARN MORE"
+          rightBtnTxt="EXISTING INVENTORY"
           twoButtons="true"
         />
 

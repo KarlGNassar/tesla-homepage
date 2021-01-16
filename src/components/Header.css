@@ -14,6 +14,7 @@
   height: 24px;
   width: 100px;
   margin-top: 7px;
+  cursor: pointer;
 }
 
 .header__center {
@@ -25,6 +26,7 @@
 .header__center > p {
   margin: 10px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .header__right {
@@ -32,8 +34,10 @@
   justify-content: flex-end;
   text-transform: uppercase;
   padding-right: 3vw;
+  align-items: center;
 }
 
 .header__right > p {
   margin: 10px;
+  cursor: pointer;
 }

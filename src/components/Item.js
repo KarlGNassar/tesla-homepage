@@ -27,7 +27,7 @@ const Item = ({ title, desc, backgroundImg, leftBtnTxt, rightBtnTxt, twoButtons,
                     
                     {first && (
                         <div className="item__expand">
-                            <ExpandMoreIcon />
+                            <ExpandMoreIcon fontSize="large"/>
                         </div>
                     )}
                 </div>
